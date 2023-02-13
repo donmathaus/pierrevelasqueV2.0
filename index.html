@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <title>Pierre Velasque</title>
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source src="./src/videos/fundo-video.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <header class="cabecalho">
+      <nav>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          
+          <li><a href="./pag2.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacoes">
+        <img
+          src="./src/imagens/logo-grande.png"
+          class="logo-grande"
+          alt="Logo Pierre Velasque"
+          height="250"
+        />
+
+        <p class="descricao1">
+          Pierre Velasque se lançou à carreira solo no início de 2021, trazendo
+          seu EP acústico <a href="https://www.youtube.com/watch?v=ZWlqFI7R-gU" class="linkcartas" target="_blank">"Cartas Marcadas"</a> e ao final deste mesmo ano lançou o
+          Single e videoclipe de seu som "Uma Desculpa Para Beber", ambos
+          lançados de forma digital em todas as plataformas. O estilo de som é
+          Rock n Roll, com influências indo de clássicos como Neil Young e
+          Johnny Cash até na linha mais pesada como Motley Crue e Motorhead.</p>
+         
+        <p class="descricao2">
+          Com previsão de lançamento do seu primeiro CD "O Veneno da Noite" para
+          2023, a temática será voltada a todo o clima de noitadas e Rock N
+          Roll.</p>
+         
+        <p class="descricao3">
+          Pierre Velasque também participou de diversas bandas do cenário da
+          grande Porto Alegre como guitarrista (Galactic Machine, Os Carniça,
+          Ilusão Social, Barba e Kill, The Joeys e Ramones Mania) algumas as
+          quais toca até hoje.
+             
+        </p>
+        <button class="botao-trailer">Assista o clipe "Uma Desculpa Para Beber"
+        </button>
+        <button class="botao-spotify"><a href="https://open.spotify.com/artist/44akTA1VUUPhiOjl5Grb5F" target="_blank" style="color: white;"> Confira a Playlist completa no spotify</a></button>
+      </div>
+      
+      <div class="modal">
+        <div class="conteudo-modal">
+            <span class="fechar-modal">X</span>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/tFzuHhsyFj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+    
+  </body>
+</html>
